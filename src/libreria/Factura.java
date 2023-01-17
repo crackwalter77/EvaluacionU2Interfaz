@@ -8,7 +8,7 @@ package libreria;
 public class Factura {
 
 	private String descripcion;
-	private String direecion;
+	private String direccion;
 	private String fecha;
 	private int numeroFactura;
 	private String ubicacion;
@@ -18,7 +18,6 @@ public class Factura {
 	public Factura(){
 
 	}
-
 	public void calcularIva(){
 
 	}

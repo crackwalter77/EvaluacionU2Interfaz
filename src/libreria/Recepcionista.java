@@ -5,14 +5,13 @@ package libreria;
  *
  * @author Walter
  */
-public class Recepcionista extends Empleado {
+public class Recepcionista extends Persona {
 
 	private double horario;
 
 	public Recepcionista(){
 
 	}
-        
 	public void generarFactura(){
 
 	}

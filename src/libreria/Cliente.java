@@ -7,12 +7,11 @@ package libreria;
  */
 public class Cliente extends Persona {
 
-	//public ReservarLibro reservarLibroList;
+	public ReservarLibro reservarLibroList;
 
 	public Cliente(){
 
 	}
-        
 	public void comprar(){
 
 	}
@@ -28,6 +27,12 @@ public class Cliente extends Persona {
 	public LibroReservado reservar(){
 		return null;
 	}
+
+    private static class ReservarLibro {
+
+        public ReservarLibro() {
+        }
+    }
 
     private static class LibroReservado {
 

@@ -8,7 +8,7 @@ package libreria;
 public class Libro {
 
 	private String tipoDeLibro;
-	public TipoDelibro m_TipoDelibro;
+	private TipoDelibro tipoDeLibroList;
 
 	public Libro(){
 
